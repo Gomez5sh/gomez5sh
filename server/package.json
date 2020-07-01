@@ -1,0 +1,9 @@
+{
+  "name": "Yggdrasil",
+  "version": "0.0.1",
+  "description": "Backend pra mi web perosnal",
+  "main": "index.js",
+  "repository": "https://github.com/g5sh/gomez5sh",
+  "author": "Emmanuel Gomez",
+  "license": "MIT"
+}
