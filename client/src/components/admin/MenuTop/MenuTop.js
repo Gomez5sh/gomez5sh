@@ -1,8 +1,8 @@
 import React from "react";
 import G5shLogo from "../../../assets/img/png/G5shLogo.png";
 import "./MenuTop.scss";
-import { Button, Icon } from "antd";
-import { MenuOutlined, LogoutOutlined } from "@ant-design/icons";
+import { Button } from "antd";
+import { Icon } from "@ant-design/compatible";
 
 export default function MenuTop() {
   return (
@@ -14,12 +14,12 @@ export default function MenuTop() {
           alt="Emmanuel Antonio Gomez Martinez"
         />
         <Button type="link" onClick={() => console.log("You push me")}>
-          <MenuOutlined type="menu-fold" />
+          <Icon type="menu-fold" />
         </Button>
       </div>
       <div className="menu-top__right">
         <Button type="link" onClick={() => console.log("You push me")}>
-          <LogoutOutlined />
+          <Icon type="poweroff" />
         </Button>
       </div>
     </div>
