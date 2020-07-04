@@ -1167,6 +1167,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@icon/ant-design-outline-icons@^4.1.0-alpha.0":
+  version "4.1.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@icon/ant-design-outline-icons/-/ant-design-outline-icons-4.1.0-alpha.0.tgz#ce6781fc6cb3addc2f90e75e855378dd3b87dd97"
+  integrity sha512-ONNl7cZnhyKZnEUoeuVC1UYkUXiALCuhtnIjIhxW5cPP3z3IU1XtewiUdKLi9jwRQkFxcwbcL9NlHp/Ep2NjuA==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
