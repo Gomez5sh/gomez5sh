@@ -5,10 +5,11 @@ import { Icon } from "@ant-design/compatible";
 
 import "./MenuSider.scss";
 
-export default function MenuSider() {
+export default function MenuSider(props) {
   const { Sider } = Layout;
+  const { menuCollapsed } = props;
   return (
-    <Sider className="admin-sider">
+    <Sider className="admin-sider" collapsed={menuCollapsed}>
       <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
         <Menu.Item key="1">
           <Link to={"/admin"}>
