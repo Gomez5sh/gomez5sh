@@ -1,0 +1,25 @@
+@import "../../../scss/index.scss";
+
+.register-form {
+  text-align: left;
+
+  .ant-form-item {
+    &:nth-child(3),
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__input {
+    .ant-input-prefix {
+      i {
+        font-size: 0em + 22px / $defaultFontSize;
+      }
+    }
+
+    input {
+      font-size: 0em + 20px / $defaultFontSize;
+      padding: 20px 20px 20px 40px !important;
+    }
+  }
+}
