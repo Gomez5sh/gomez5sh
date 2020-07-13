@@ -1,7 +1,8 @@
 @import "../../../scss/index.scss";
 
 .register-form {
-  justify-content: center;
+  margin: auto;
+  width: 90%;
 
   .ant-form-item {
     &:nth-child(3),
