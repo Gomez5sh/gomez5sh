@@ -41,7 +41,7 @@ export default function SignUpForm() {
       </Form.Item>
       <Form.Item>
         <Button htmlType="submit" className="register-form__button">
-          create account
+          Create Account
         </Button>
       </Form.Item>
     </Form>

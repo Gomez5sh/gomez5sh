@@ -1,7 +1,7 @@
 @import "../../../scss/index.scss";
 
 .register-form {
-  text-align: left;
+  justify-content: center;
 
   .ant-form-item {
     &:nth-child(3),
@@ -13,13 +13,38 @@
   &__input {
     .ant-input-prefix {
       i {
-        font-size: 0em + 22px / $defaultFontSize;
+        font-size: 0em + 12px / $defaultFontSize;
       }
     }
 
     input {
-      font-size: 0em + 20px / $defaultFontSize;
-      padding: 20px 20px 20px 40px !important;
+      font-size: 0em + 10px / defaultFontSize;
+      padding: 5px 5px 5px 20px !important;
+      &:focus {
+        border-color: $primary-color;
+        box-shadow: none;
+      }
+    }
+  }
+
+  &__button {
+    width: 40%;
+    font-size: 0em + 12px / $defaultFontSize;
+    background-image: linear-gradient(to top right, #654ea3, #eaafc8);
+    color: #fff;
+    height: 42px;
+
+    &:hover {
+      background-image: linear-gradient(to top right, #654ea3, #eaafc8);
+      color: #fff;
+      opacity: 55%;
+    }
+
+    &:focus,
+    &:active {
+      background-image: linear-gradient(to top right, #654ea3, #eaafc8);
+      color: $font-ligth;
+      border: 0;
     }
   }
 }
