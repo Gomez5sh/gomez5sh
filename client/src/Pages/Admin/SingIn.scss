@@ -50,15 +50,18 @@
         border-radius: 0px !important;
         margin: 0% !important;
         justify-content: center;
+        color: #654ea3;
         @media (min-width: $media-breackpoint-up-md) {
           width: 300px;
           font-size: 0em + 12px / $defaultFontSize;
 
           &:hover {
-            color: $font-grey-dark;
+            color: #654ea3;
+            opacity: 55%;
           }
 
           &:before {
+            color: #654ea3;
             content: none;
           }
 
@@ -66,12 +69,13 @@
             height: 100%;
             display: flex;
             align-items: center;
+            color: #654ea3;
           }
         }
       }
 
       .ant-tabs-tab-active {
-        color: $primary-color !important;
+        color: #654ea3 !important;
         border-top: 1px solid $primary-color !important;
         border-radius: 0 !important;
         border-right: 0 !important;

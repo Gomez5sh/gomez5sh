@@ -1,12 +1,14 @@
 @import "../../../scss/index.scss";
 
 .register-form {
-  margin: auto;
+  margin: 3% 10% 0 10%;
   width: 90%;
+  text-align: center;
+  box-shadow: darken($color: #000000, $amount: 0);
 
   .ant-form-item {
     &:nth-child(3),
-    &:last-child {
+    &:last-of-type {
       margin: 0;
     }
   }
@@ -22,7 +24,7 @@
       font-size: 0em + 10px / defaultFontSize;
       padding: 5px 5px 5px 20px !important;
       &:focus {
-        border-color: $primary-color;
+        border-color: #654ea3;
         box-shadow: none;
       }
     }
