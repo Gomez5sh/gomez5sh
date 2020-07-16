@@ -4,7 +4,7 @@ import { Form, Input, Button, Checkbox, notification } from "antd";
 import {
   emailValidation,
   minLenghtvalidation,
-} from "../../../utils/ForValidatio";
+} from "../../../utils/ForValidation";
 
 import "./SignUpForm.scss";
 
@@ -63,60 +63,85 @@ export default function SignUpForm() {
 
   const register = (e) => {
     e.preventDefault();
-    console.log(formValid);
-  };
+    const { email, password, repeatPassword, privacyPolicy } = formValid;
 
-  return (
-    <div>
-      <Form className="register-form" onSubmit={register} onChange={changeForm}>
-        <Form.Item>
-          <Input
-            prefix={<Icon type="user" style={{ color: "rgba:0,0,0,.25" }} />}
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            className="register-form__input"
-            onChange={inputValidation}
-            value={inputs.email}
-          />
-        </Form.Item>
-        <Form.Item>
-          <Input
-            prefix={<Icon type="lock" style={{ color: "rgba:0,0,0,.25" }} />}
-            type="password"
-            name="password"
-            placeholder="password"
-            className="register-form__input"
-            onChange={inputValidation}
-            value={inputs.password}
-          />
-        </Form.Item>
-        <Form>
-          <Input
-            prefix={<Icon type="lock" style={{ color: "rgba:0,0,0,.25" }} />}
-            type="password"
-            name="repeatPassword"
-            placeholder="Repeat your password"
-            className="register-form__input"
-            onChange={inputValidation}
-            value={inputs.repeatPassword}
-          />
+    const emailVal = inputs.email;
+    const passwordVal = inputs.password;
+    const repeatPasswordVal = inputs.repeatPassword;
+    const privacyPolicyVal = inputs.privacyPolicy;
+
+    if (!emailVal || !passwordVal || !repeatPasswordVal || !privacyPolicyVal) {
+      notification["error"]({
+        message: "All fields are required",
+      });
+    } else {
+      if (passwordVal !== repeatPasswordVal) {
+        notification["error"]({
+          message: "Password are diferent",
+        });
+      } else {
+        notification["error"]({
+          message: "You are register",
+        });
+      }
+    }
+
+    return (
+      <div>
+        <Form
+          className="register-form"
+          onSubmit={register}
+          onChange={changeForm}
+        >
+          <Form.Item>
+            <Input
+              prefix={<Icon type="user" style={{ color: "rgba:0,0,0,.25" }} />}
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              className="register-form__input"
+              onChange={inputValidation}
+              value={inputs.email}
+            />
+          </Form.Item>
+          <Form.Item>
+            <Input
+              prefix={<Icon type="lock" style={{ color: "rgba:0,0,0,.25" }} />}
+              type="password"
+              name="password"
+              placeholder="password"
+              className="register-form__input"
+              onChange={inputValidation}
+              value={inputs.password}
+            />
+          </Form.Item>
+          <Form>
+            <Input
+              prefix={<Icon type="lock" style={{ color: "rgba:0,0,0,.25" }} />}
+              type="password"
+              name="repeatPassword"
+              placeholder="Repeat your password"
+              className="register-form__input"
+              onChange={inputValidation}
+              value={inputs.repeatPassword}
+            />
+          </Form>
+          <Form.Item>
+            <Checkbox
+              name="privacyPolicy"
+              checked={inputs.privacyPolicy}
+              onChange={inputValidation}
+            >
+              I have read and accept the privacy policy
+            </Checkbox>
+          </Form.Item>
+          <Form.Item>
+            <Button htmlType="submit" className="register-form__button">
+              Create Account
+            </Button>
+          </Form.Item>
         </Form>
-        <Form.Item>
-          <Checkbox
-            name="privacyPolicy"
-            checked={inputs.privacyPolicy}
-            onChange={inputValidation}
-          >
-            I have read and accept the privacy policy
-          </Checkbox>
-        </Form.Item>
-        <Form.Item>
-          <Button htmlType="submit" className="register-form__button">
-            Create Account
-          </Button>
-        </Form.Item>
-      </Form>
-    </div>
-  );
+      </div>
+    );
+  };
 }

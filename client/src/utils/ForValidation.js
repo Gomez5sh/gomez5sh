@@ -23,7 +23,7 @@ export function emailValidation(inputData) {
   const resultValidation = emailValid.test(value);
 
   if (resultValidation) {
-    inputData.classList.add("succes");
+    inputData.classList.add("success");
     return true;
   } else {
     inputData.classList.add("error");
