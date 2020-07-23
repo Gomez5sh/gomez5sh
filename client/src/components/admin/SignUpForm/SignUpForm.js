@@ -86,6 +86,26 @@ export default function SignUpForm() {
       });
     } else {
       const result = await signUpApi(inputs);
+      if (!result.ok) {
+        notification["error"]({
+          message: result.message,
+          icon: <SmileOutlined style={{ color: "#108ee9" }} />,
+        });
+      } else {
+        notification["success"]({
+          message: result.message,
+        });
+        resetForm();
+      }
+    }
+  };
+
+  const resetForm = () => {
+    const inputs = document.getElementsByTagName("input");
+
+    for (let i = 0; i < inputs.length; i++) {
+      inputs[i].classList.remove("success");
+      inputs[i].classList.remove("error");
     }
   };
 
@@ -114,7 +134,7 @@ export default function SignUpForm() {
             value={inputs.password}
           />
         </Form.Item>
-        <Form>
+        <Form.Item>
           <Input
             prefix={<LockOutlined style={{ color: "rgba:0,0,0,.25" }} />}
             type="password"
@@ -124,7 +144,7 @@ export default function SignUpForm() {
             onChange={inputValidation}
             value={inputs.repeatPassword}
           />
-        </Form>
+        </Form.Item>
         <Form.Item>
           <Checkbox
             name="privacyPolicy"
@@ -135,7 +155,11 @@ export default function SignUpForm() {
           </Checkbox>
         </Form.Item>
         <Form.Item>
-          <Button htmlType="submit" className="register-form__button">
+          <Button
+            htmlType="submit"
+            className="register-form__button"
+            size="small"
+          >
             Create Account
           </Button>
         </Form.Item>

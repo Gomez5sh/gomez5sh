@@ -17,11 +17,20 @@ export function signUpApi(data) {
     })
     .then((Result) => {
       if (Result.user) {
-        return Result;
+        return {
+          ok: true,
+          message: "User Created",
+        };
       }
-      return Result.message;
+      return {
+        ok: false,
+        message: Result.message,
+      };
     })
     .catch((err) => {
-      return err.message;
+      return {
+        ok: false,
+        message: err.message,
+      };
     });
 }
