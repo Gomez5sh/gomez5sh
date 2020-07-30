@@ -8,7 +8,7 @@ in full stack software development at Holberton School Cohort 10 Bogotá Colombi
 - 💼 I’m looking for a job as a Jr Full Stack in a startup or tech industry
 - 🥅 2020 Goals: Get an immersive development experience
 - 📫 How to reach me: eagomez2387@gmail.com || www.gomez5sh.co
-- ⚡ Fun fact: Play Bask 🏀 | Travel✈️ | Sometimes to play videogames
+- ⚡ Fun fact: Play Bask 🏀 | Travel✈️ | Sometimes play videogames
 - 💛 Lovers: Kitties😼
 -  ✈️ My goal is to settle abroad Canada or New Zealand
 -  👨‍👩‍👦 My passion is my wife and daughter
