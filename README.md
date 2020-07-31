@@ -55,3 +55,5 @@ in full stack software development at Holberton School Cohort 10 Bogotá Colombi
 [mongodb]: https://www.mongodb.com
 [Golang]: https://golang.org/
 [git]: https://git-scm.com
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=gomez5sh&repo=github-readme-stats&show_icons=true&theme=buefy)](https://github.com/anuraghazra/github-readme-stats)
