@@ -40,6 +40,7 @@ in full stack software development at Holberton School Cohort 10 Bogotá Colombi
 ---
 
 [![github stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&count_private=true&show_icons=true&theme=buefy)](https://github.com/anuraghazra/github-readme-stats)
+<img width="320" img align="right" alt="Gomez5sh Languages Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gomez5sh&layout=compact&theme=buefy" class="responsive"/>
 
 [twitter]: https://twitter.com/gomez5sh
 [instagram]: https://instagram.com/gomez5sh
