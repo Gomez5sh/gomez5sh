@@ -1,9 +1,7 @@
 const express = require("express");
-const bodyPaser = require("body-parser");
-
+const bodyParser = require("body-parser");
 const app = express();
 const { API_VERSION } = require("./config");
-const bodyParser = require("body-parser");
 
 // load routings
 const userRoutes = require("./routers/user");
