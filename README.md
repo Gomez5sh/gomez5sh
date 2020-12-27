@@ -31,7 +31,7 @@ in full stack software development at Holberton School Cohort 10 Bogotá Colombi
 [<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][reactjs]
 [<img align="left" alt="React" width="40px" src="https://i.imgur.com/67XA0Nd.jpg" />][Angular]
 [<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][sql]
-[<img align="left" alt="Python" width="26px" src="https://i.imgur.com/WyTZyyA.png"/>][python]
+[<img align="left" alt="Python" width="26px" src="https://i.ibb.co/HFbYcRz/pngegg.png"/>][python]
 [<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />][mongodb]
 [<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][git]
 [<img align="left" alt="Golang" width="26px" src="https://i.imgur.com/0H106oO.png"/>][Golang]
