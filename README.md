@@ -5,7 +5,7 @@ I'm software engineer👨‍💻. Passionate about technology. I a full stack de
 - 👨🏻‍🚀 I Keep learning virtually every day. Never stop
 - 🧠 I’m currently learning Javascript Node
 - 💼 I’m looking for a job as a Full Stack in a startup or tech industry
-- 📫 How to reach me: eagomez2387@gmail.com || www.gomez5sh.co
+- 📫 How to reach me: eagomez2387@gmail.com || [gomezDev](https://www.gomezdev.co/)
 - ⚡ Fun fact: Play Bask 🏀 | Travel✈️ | Sometimes play videogames
 - 💛 Lovers: Kitties😼
 -  ✈️ My goal is to settle abroad Canada or New Zealand
