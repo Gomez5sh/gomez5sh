@@ -48,7 +48,7 @@
 
 <div align="center">
 
-#### 📊 GitHub Stats
+#### 📊 Stats
 ![Emmanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
 
 #### 💬 Top Languages  
