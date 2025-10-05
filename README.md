@@ -1,4 +1,10 @@
-<h1 align="center">👋 Hey, I'm Emmanuel Gomez</h1>
+<!-- Banner Principal -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gomez5sh/gomez5sh/main/banner-emmanuel-gomez.png" alt="Emmanuel Gomez — Frontend Engineer" width="100%" />
+</p>
+
+<!-- Título y presentación -->
+<h1 align="center">👋 Hey, I'm <span style="color:#00FFFF;">Emmanuel Gomez</span></h1>
 
 <p align="center">
   <b>Frontend Engineer | UI/UX Enthusiast | Building delightful digital experiences</b>
@@ -26,38 +32,35 @@
 
 ### 🛠️ Tech Stack
 
-#### Frontend
-![React](https://img.shields.io/badge/-React-20232a?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
-
-#### Backend & Tools
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git)
-![VSCode](https://img.shields.io/badge/-VSCode-0078D4?style=for-the-badge&logo=visual-studio-code)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,js,tailwind,graphql,html,css,nodejs,mongodb,git,vscode" />
+</p>
 
 ---
 
-### 📊 GitHub Stats
+### 🌗 Animated Stats (Dark & Light Modes)
 
-<div align="center">
+<p align="center">
+  <!-- Dark Mode GIF -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=vue&hide_border=true&bg_color=00000000" />
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=tokyonight&hide_border=true" />
+  </picture>
 
-#### 🌙 Dark Mode  
-![Emmanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
+  <br />
 
-#### ☀️ Light Mode  
-![Emmanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=vue&hide_border=true&bg_color=00000000)
+  <!-- Animated Contribution Snake -->
+  <img src="https://raw.githubusercontent.com/gomez5sh/gomez5sh/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
 
-#### 💬 Top Languages  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gomez5sh&layout=compact&theme=tokyonight&hide_border=true)
+---
 
-</div>
+### 💬 Top Languages  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gomez5sh&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
@@ -79,4 +82,3 @@
 
 > _“Great interfaces tell stories. I just happen to write them in code.”_ ✨  
 > — Emmanuel Gomez
-
