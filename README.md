@@ -48,11 +48,8 @@
 
 <div align="center">
 
-#### 🌙 Dark Mode  
+#### 📊 GitHub Stats
 ![Emmanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
-
-#### ☀️ Light Mode  
-![Emmanuel's GitHub stats](https://github-readme-stats.vercel.app/api?username=gomez5sh&show_icons=true&theme=vue&hide_border=true&bg_color=00000000)
 
 #### 💬 Top Languages  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gomez5sh&layout=compact&theme=tokyonight&hide_border=true)
